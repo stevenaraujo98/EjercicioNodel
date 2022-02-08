@@ -48,7 +48,7 @@ reglas = {
     41: ["//form/input[@type='text']", "//form/input[@type='submit']"]
 }
 
-driver = webdriver.Chrome('C:/Users/steve/Documents/Git/Trabajo/PracticaPythonNodel/EjerciciosDeLaPrueba/SeleniumOlx/chromedriver.exe')
+driver = webdriver.Chrome('../chromedriver.exe')
 
 driver.get('http://www.pbclibrary.org/raton/mousercise.htm')
 

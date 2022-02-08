@@ -9,7 +9,7 @@ Post,Caption,Date,likesComment,IdFatherComment,IdChildComment,Username
 IdFatherComment es el id de un comment_base directo al posts y IdChildComment es el id de un comment_base hecho sobre otro comment_base
 '''
 
-driver = webdriver.Chrome('./chromedriver.exe')
+driver = webdriver.Chrome('../chromedriver.exe')
 
 driver.get('http://www.instagram.com/p/B166OkVBPJR/')
 
